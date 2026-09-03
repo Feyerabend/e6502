@@ -82,7 +82,7 @@ asked.
         | instruction |========| CPU |========|    data     |
         |   memory    |        +-----+        |   memory    |
         +-------------+                       +-------------+
-             fetch bus                          load/store bus
+           fetch bus                          load/store bus
 ```
 
 Named after the Harvard Mark I (1944), which read its program from punched
