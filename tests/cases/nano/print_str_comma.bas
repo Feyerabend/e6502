@@ -1,0 +1,3 @@
+PRINT "X=", 5
+PRINT "A", 1, "B", 2
+PRINT "HELLO", "WORLD"

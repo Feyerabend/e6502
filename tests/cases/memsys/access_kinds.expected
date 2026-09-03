@@ -1,0 +1,14 @@
+statistics cleared
+A
+[halted at $080E]
+model: modified Harvard (unified memory, split L1)
+bus accesses 22   instruction side 15 (68.2%)   data side 7 (31.8%)   uncached 2
+  by kind: OPCODE=6  OPERAND=9  DATA=3  PTR=0  STACK=4  VECTOR=0
+  I$        15 acc        13 hit         2 miss   hit rate  86.67%
+      reads        15 (13 hit / 2 miss)   writes        0 (0 hit / 0 miss)
+      evictions 0 (0 dirty)  stall 16 cyc  traffic in 32 B / out 0 B
+  D$         5 acc         3 hit         2 miss   hit rate  60.00%
+      reads         3 (2 hit / 1 miss)   writes        2 (1 hit / 1 miss)
+      evictions 0 (0 dirty)  stall 16 cyc  traffic in 32 B / out 0 B
+cycles: cpu 26 + stall 32 = 58   (2.23x the ideal-memory time)
+AMAT: 1.455 stall cycles per bus access

@@ -1,0 +1,4 @@
+PRINT 0-5
+PRINT -5 * -3
+PRINT 0 - 5 * 2
+PRINT -(2+3)

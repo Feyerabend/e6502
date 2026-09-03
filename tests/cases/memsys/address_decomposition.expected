@@ -1,0 +1,15 @@
+address $2000 = %0010000000000000
+  I$  tag $040 | set 0 | offset 0    -> not resident
+      addresses that collide with it: $0000, $0080, $0100, ... (every 128 bytes)
+  D$  tag $040 | set 0 | offset 0    -> not resident
+      addresses that collide with it: $0000, $0080, $0100, ... (every 128 bytes)
+address $2080 = %0010000010000000
+  I$  tag $041 | set 0 | offset 0    -> not resident
+      addresses that collide with it: $0000, $0080, $0100, ... (every 128 bytes)
+  D$  tag $041 | set 0 | offset 0    -> not resident
+      addresses that collide with it: $0000, $0080, $0100, ... (every 128 bytes)
+address $1234 = %0001001000110100
+  I$  tag $024 | set 3 | offset 4    -> not resident
+      addresses that collide with it: $0030, $00B0, $0130, ... (every 128 bytes)
+  D$  tag $024 | set 3 | offset 4    -> not resident
+      addresses that collide with it: $0030, $00B0, $0130, ... (every 128 bytes)

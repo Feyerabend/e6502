@@ -1,0 +1,5 @@
+PRINT 0 - 5
+PRINT -(3 + 4)
+PRINT 10 - -5
+PRINT 10 - 2 - 3
+PRINT 20 / 2 / 2

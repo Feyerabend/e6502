@@ -1,0 +1,4 @@
+10 B(3)=99
+20 PRINT B(3)
+30 PRINT B(0)
+RUN

@@ -1,0 +1,6 @@
+10 A$="FOO"
+20 A$=A$+"BAR"
+30 PRINT A$
+40 PRINT "X";
+50 PRINT "Y"
+RUN

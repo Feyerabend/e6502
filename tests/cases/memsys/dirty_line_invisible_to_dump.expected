@@ -1,0 +1,7 @@
+loaded 27 bytes at $0800 into I-space and D-space
+stale-line warnings off
+AAAAA
+[halted at $081B]
+$0800  A2 00 8A 18 69 41 8D 0A 08 A9 41 8D 01 F0 E8 E0  ....iA....A.....
+dirty data lines written back
+$0800  A2 00 8A 18 69 41 8D 0A 08 A9 45 8D 01 F0 E8 E0  ....iA....E.....

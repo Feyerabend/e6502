@@ -1,0 +1,17 @@
+loaded 37 bytes at $0800 into I-space and D-space
+  D$    256 B = 8 sets x 2 ways x 16 B/line   tag 9 : index 3 : offset 4 bits
+      LRU replacement, write-through, write-allocate, miss penalty 8 cycles
+
+[halted at $0825]
+model: modified Harvard (unified memory, split L1)
+bus accesses 143766   instruction side 113005 (78.6%)   data side 30761 (21.4%)   uncached 1
+  by kind: OPCODE=61642  OPERAND=51363  DATA=30761  PTR=0  STACK=0  VECTOR=0
+  I$    113005 acc    113003 hit         2 miss   hit rate 100.00%
+      reads    113005 (113003 hit / 2 miss)   writes        0 (0 hit / 0 miss)
+      evictions 0 (0 dirty)  stall 16 cyc  traffic in 32 B / out 0 B
+  D$     30760 acc     30679 hit        81 miss   hit rate  99.74%
+      reads     20480 (20400 hit / 80 miss)   writes    10280 (10279 hit / 1 miss)
+      evictions 81 (0 dirty)  stall 648 cyc  traffic in 1296 B / out 10280 B
+cycles: cpu 174529 + stall 664 = 175193   (1.00x the ideal-memory time)
+AMAT: 0.005 stall cycles per bus access
+stores into the program image ($0800-$0824): 0

@@ -1,0 +1,3 @@
+PRINT "A";"B";"C"
+PRINT 1;2;3
+PRINT "N=";5

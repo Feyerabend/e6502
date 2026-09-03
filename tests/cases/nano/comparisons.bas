@@ -1,0 +1,6 @@
+PRINT 5 > 3
+PRINT 5 < 3
+PRINT 5 = 5
+PRINT 5 <> 5
+PRINT 3 <= 3
+PRINT 4 >= 5

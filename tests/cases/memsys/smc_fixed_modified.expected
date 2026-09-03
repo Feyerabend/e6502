@@ -1,0 +1,17 @@
+loaded 33 bytes at $0800 into I-space and D-space
+stale-line warnings off
+ABCDE
+[halted at $0821]
+model: modified Harvard (unified memory, split L1)
+bus accesses 149   instruction side 127 (85.2%)   data side 22 (14.8%)   uncached 17
+  by kind: OPCODE=59  OPERAND=66  DATA=22  PTR=0  STACK=0  VECTOR=2
+  I$       127 acc       114 hit        13 miss   hit rate  89.76%
+      reads       127 (114 hit / 13 miss)   writes        0 (0 hit / 0 miss)
+      evictions 0 (0 dirty)  stall 104 cyc  traffic in 208 B / out 0 B
+  D$         5 acc         4 hit         1 miss   hit rate  80.00%
+      reads         0 (0 hit / 0 miss)   writes        5 (4 hit / 1 miss)
+      evictions 0 (5 dirty)  stall 8 cyc  traffic in 16 B / out 80 B
+cycles: cpu 173 + stall 112 = 285   (1.65x the ideal-memory time)
+AMAT: 0.752 stall cycles per bus access
+stores into the program image ($0800-$0820): 5
+STALE: 4 store(s) landed in D$ while I$ held the same line

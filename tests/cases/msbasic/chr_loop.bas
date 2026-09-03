@@ -1,0 +1,6 @@
+10 A$ = ""
+20 FOR I=65 TO 69
+30 A$ = A$ + CHR$(I)
+40 NEXT
+50 PRINT A$
+RUN

@@ -1,0 +1,6 @@
+10 A = 3.14
+20 A = A * 2
+30 B = A + 0.5
+40 PRINT A
+50 PRINT B
+RUN

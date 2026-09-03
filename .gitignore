@@ -1,0 +1,15 @@
+# Compiled binaries (built by `make`)
+m6502/m6502
+h6502/h6502
+h6502/cachetest
+*.o
+
+# Assembled demo images -- regenerated from the .asm by `make`
+h6502/demos/*.bin
+
+# The BASIC images in basic/*/basic.bin are deliberately tracked: they are the
+# shipped artefacts of each tier, and the tests run against them.
+
+__pycache__/
+*.pyc
+.DS_Store

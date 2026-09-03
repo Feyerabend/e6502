@@ -1,0 +1,5 @@
+PRINT 3 < 5
+PRINT 5 < 3
+PRINT 2.5 = 2.5
+PRINT 3 >= 3
+PRINT 1 <> 2

@@ -1,0 +1,3 @@
+PRINT CHR$(65)
+PRINT "N=" + STR$(42)
+PRINT CHR$(72)+CHR$(73)

@@ -1,0 +1,4 @@
+10 INPUT A
+20 PRINT A*2
+RUN
+3.5

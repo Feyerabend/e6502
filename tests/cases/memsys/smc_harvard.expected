@@ -1,0 +1,5 @@
+loaded 27 bytes at $0800 into I-space and D-space
+  (mirrored into both, the way a Harvard toolchain copies .data from ROM to RAM at startup)
+stale-line warnings off
+AAAAA
+[halted at $081B]

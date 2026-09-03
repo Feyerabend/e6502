@@ -1,0 +1,17 @@
+loaded 27 bytes at $0800 into I-space and D-space
+I$ snooping on
+ABCDE
+[halted at $081B]
+model: modified Harvard (unified memory, split L1)
+bus accesses 109   instruction side 97 (89.0%)   data side 12 (11.0%)   uncached 7
+  by kind: OPCODE=49  OPERAND=46  DATA=12  PTR=0  STACK=0  VECTOR=2
+  I$        97 acc        89 hit         8 miss   hit rate  91.75%
+      reads        97 (89 hit / 8 miss)   writes        0 (0 hit / 0 miss)
+      evictions 0 (0 dirty)  stall 64 cyc  traffic in 128 B / out 0 B
+      snoop invalidations 5
+  D$         5 acc         4 hit         1 miss   hit rate  80.00%
+      reads         0 (0 hit / 0 miss)   writes        5 (4 hit / 1 miss)
+      evictions 0 (5 dirty)  stall 8 cyc  traffic in 16 B / out 80 B
+cycles: cpu 133 + stall 72 = 205   (1.54x the ideal-memory time)
+AMAT: 0.661 stall cycles per bus access
+stores into the program image ($0800-$081A): 5

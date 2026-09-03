@@ -1,0 +1,12 @@
+loaded 27 bytes at $0800 into I-space and D-space
+model: modified Harvard (unified memory, split L1)
+caches: OFF (every access goes to memory), I$ snooping off
+
+[halted at $081B]
+model: modified Harvard (unified memory, split L1)
+bus accesses 17494   instruction side 14421 (82.4%)   data side 3073 (17.6%)   uncached 1
+  by kind: OPCODE=6194  OPERAND=8227  DATA=3073  PTR=0  STACK=0  VECTOR=0
+  (caches off -- nothing to report)
+cycles: cpu 19561 + stall 0 = 19561   (1.00x the ideal-memory time)
+AMAT: 0.000 stall cycles per bus access
+stores into the program image ($0800-$081A): 0

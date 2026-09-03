@@ -1,0 +1,2 @@
+10 PRINT "HI"
+20 GOTO 10

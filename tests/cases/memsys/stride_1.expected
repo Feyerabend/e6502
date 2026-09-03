@@ -1,0 +1,15 @@
+loaded 47 bytes at $0800 into I-space and D-space
+
+[halted at $082F]
+model: modified Harvard (unified memory, split L1)
+bus accesses 7955   instruction side 5391 (67.8%)   data side 2564 (32.2%)   uncached 1
+  by kind: OPCODE=2823  OPERAND=2568  DATA=2052  PTR=512  STACK=0  VECTOR=0
+  I$      5391 acc      5389 hit         2 miss   hit rate  99.96%
+      reads      5391 (5389 hit / 2 miss)   writes        0 (0 hit / 0 miss)
+      evictions 0 (0 dirty)  stall 16 cyc  traffic in 32 B / out 0 B
+  D$      2563 acc      2547 hit        16 miss   hit rate  99.38%
+      reads      1792 (1776 hit / 16 miss)   writes      771 (771 hit / 0 miss)
+      evictions 1 (0 dirty)  stall 128 cyc  traffic in 256 B / out 0 B
+cycles: cpu 8726 + stall 144 = 8870   (1.02x the ideal-memory time)
+AMAT: 0.018 stall cycles per bus access
+stores into the program image ($0800-$082E): 0

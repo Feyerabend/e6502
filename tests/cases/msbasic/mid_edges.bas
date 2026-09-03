@@ -1,0 +1,5 @@
+A$="ABCDE"
+PRINT MID$(A$,3)
+PRINT MID$(A$,4,10)
+PRINT LEFT$(A$,10)
+PRINT "["; MID$(A$,10,2); "]"

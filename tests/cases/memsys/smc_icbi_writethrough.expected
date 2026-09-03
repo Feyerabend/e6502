@@ -1,0 +1,6 @@
+loaded 30 bytes at $0800 into I-space and D-space
+  D$    256 B = 8 sets x 2 ways x 16 B/line   tag 9 : index 3 : offset 4 bits
+      LRU replacement, write-through, write-allocate, miss penalty 8 cycles
+stale-line warnings off
+ABCDE
+[halted at $081E]
